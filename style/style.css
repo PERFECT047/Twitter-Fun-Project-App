@@ -62,14 +62,33 @@ body {
 .main{
     /*width: 60%;*/
     flex: 1;
-    background-color: coral;
+    background-color: #0F0F11;
     display: flex;
     flex-direction: column;
 }
 .tweet-search-container{
-    height: 70px;
     margin: 20px;
-    background-color: red;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #979797;
+
+}
+.tweet-search-container input{
+    flex: 1;
+    background-color:transparent;
+    border:none;
+    font-size:30px;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tweet-search-container input:focus{
+    outline:none;
+}
+.tweet-search-container i{
+    font-size: 30px;
+    color: white;
 }
 .tweets-list{
     height: 500px;
